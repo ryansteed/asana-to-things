@@ -4,7 +4,8 @@ Python script for adding Asana CSV project export to Things3 on Mac, using [Thin
 Author: [Ryan Steed](https://rbsteed.com)
 
 ## Installation
-`make venv`
+1. `make venv`
+2. Copy Things URL token from Settings -> General -> Enable Things URLs -> Manage and store in `token.json` as `{"token": <token>}`.
 
 ## Usage
 1. Export an Asana project to CSV.
